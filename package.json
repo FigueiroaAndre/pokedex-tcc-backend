@@ -1,0 +1,23 @@
+{
+  "name": "pokedex-tcc-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "load-data": "node load-data.js",
+    "map-data": "node map-data.js",
+    "get-info": "node get-pokemon-full-info.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "axios": "^1.3.4",
+    "nodemon": "^2.0.21"
+  }
+}

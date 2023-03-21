@@ -1,0 +1,13 @@
+{
+    "loadData": {
+        "amount": 2000,
+        "filename": "pokemon-full-data.json"
+    },
+    "map": {
+        "inputFilename": "pokemon-full-data.json",
+        "outputFilename": "pokemon-mapped-data.json"
+    },
+    "server": {
+        "dataFilename": "pokemon-mapped-data.json"
+    }
+}

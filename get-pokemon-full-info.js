@@ -14,6 +14,7 @@ const pokemonData = pokemonFullDataList.find(pkm => pkm.name.toLowerCase() === p
 
 if(!pokemonData) {
     console.log('Pokemon with name ' + pokemonName + ' not found.');
+    return
 }
 
 console.log(pokemonData);
